@@ -1,14 +1,14 @@
 // Years when countries aim to reah net zero emissions
 // (the countries named are the biggest emmitters)
 export const netzerotimes = {
-    "us": 2050, 
-    "japan": 2050,
-    "china": 2060,
-    "russia": 2060,
-    "india": 2070
+    "us": 2050, // 2nd largest CO2 contributor
+    "japan": 2050, // 5th largest CO2 contributor
+    "china": 2060, // Largest CO2 contributor
+    "russia": 2060, // 4th largest CO2 contributor
+    "india": 2070 // 3rd largest C)2 contributor
 }
 
-// The path we are on 
+// The path we are on (lists gigatons of CO2 equivalent/year)
 export const currentpath = {
     "2025": 59.18,
     "2026": 59.37,
@@ -49,42 +49,42 @@ export const currentpath = {
   "2060": 67.39,
   "2061": 67.67, // Six-Seven
   "2062": 67.95,
-  "2063": null,
-  "2064": null,
-  "2065": null,
-  "2066": null,
-  "2067": null,
-  "2068": null,
-  "2069": null,
-  "2070": null,
-  "2071": null,
-  "2072": null,
-  "2073": null,
-  "2074": null,
-  "2075": null,
-  "2076": null,
-  "2077": null,
-  "2078": null,
-  "2079": null,
-  "2080": null,
-  "2081": null,
-  "2082": null,
-  "2083": null,
-  "2084": null,
-  "2085": null,
-  "2086": null,
-  "2087": null,
-  "2088": null,
-  "2089": null,
-  "2090": null,
-  "2091": null,
-  "2092": null,
-  "2093": null,
-  "2094": null,
-  "2095": null,
-  "2096": null,
-  "2097": null,
-  "2098": null,
-  "2099": null,
-  "2100": null
+  "2063": 68.22,
+  "2064": 69.48,
+  "2065": 68.73,
+  "2066": 68.97,
+  "2067": 69.2,
+  "2068": 69.41,
+  "2069": 69.62,
+  "2070": 69.81,
+  "2071": 69.99,
+  "2072": 70.16,
+  "2073": 70.31,
+  "2074": 70.45,
+  "2075": 70.57,
+  "2076": 70.67,
+  "2077": 70.76, 
+  "2078": 70.83,
+  "2079": 70.88,
+  "2080": 70.91,
+  "2081": 70.93,
+  "2082": 70.94,
+  "2083": 70.93,
+  "2084": 70.91,
+  "2085": 70.88, 
+  "2086": 70.83,
+  "2087": 70.78,
+  "2088": 70.72,
+  "2089": 70.65,
+  "2090": 70.57,
+  "2091": 70.48,
+  "2092": 70.39, 
+  "2093": 70.3,
+  "2094": 70.2, 
+  "2095": 70.09,
+  "2096": 69.98,
+  "2097": 69.87,
+  "2098": 69.76,
+  "2099": 69.66,
+  "2100": 66.56 // ~66,560,000,000 tons of CO2 will be released by 2100 (assuming we stay on our current path)
 }
