@@ -22,8 +22,7 @@ function App() {
     }, []);
 
     return (
-        <div>
-            <title> TimEarth </title>
+        <div id = "container">
             <h1>Welcome to TimEarth (pronounced "time-earth")!</h1>
             <p align = "left"> Gigatons of CO2 Equivalent/year </p>
             <span>
