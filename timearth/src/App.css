@@ -9,3 +9,7 @@ h1 {
 #sources {
   align-self: center;
 }
+
+.parent {
+  text-align: center;
+}

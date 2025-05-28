@@ -1,6 +1,7 @@
-import { netzerotimes } from "./data";
 import DrawCurrentGraph from "./newdrawgraph";
 import { useRef, useEffect } from 'react';
+import * as ways from "./waystostopclimatechange";
+import "./App.css";
 
 function App() {
     const graphRef = useRef(null);
@@ -25,10 +26,18 @@ function App() {
         <div id = "container">
             <h1>Welcome to TimEarth (pronounced "time-earth")!</h1>
             <p align = "left"> Gigatons of CO2 Equivalent/year </p>
-            <span>
-            <canvas ref={graphRef} width={800} height={400} style={{ border: '1px solid black' }} align="left"></canvas>
-            <p align = "right"> Largest Emitters as of 2023: <br /> China: 13,260 tons emitted</p>
-            </span>
+
+            <div class = "parent">
+                <canvas ref={graphRef} width={800} height={400} style={{ border: '1px solid black' }} align="left"></canvas>
+                
+                <p align = "right"> Largest Emitters as of 2023: <br /> China: 13,260 tons emitted 
+                <br /> United States Of America: 4,682 tons emitted <br /> India: 2,955 <br /> Russia: 
+                2,070 tons <br /> Japan: 945 tons </p>
+            </div>
+
+            <ways.AdvocateForClimateChange />
+            <ways.DoItYourself />
+
             <p id="sources" style={{ textAlign: 'center' }}>
                 Sources <br />
                 <a href="https://en-roads.climateinteractive.org/scenario.html?v=25.5.0" color = "red"> En-ROADS </a> <br />
