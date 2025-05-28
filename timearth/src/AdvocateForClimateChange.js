@@ -8,10 +8,4 @@ const AdvocateForClimateChange = (
     </p>
 )
 
-const DoItYourself = (
-    <p>
-        How can you help? You may think you are too small, too insignificant to solve the grand problem
-        of climate change. It is just too big to stop. But this is NOT true. 
-    </p>
-)
-export { AdvocateForClimateChange, DoItYourself }
+export { AdvocateForClimateChange }

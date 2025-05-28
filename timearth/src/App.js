@@ -1,9 +1,10 @@
 import DrawCurrentGraph from "./newdrawgraph";
 import { useRef, useEffect } from 'react';
-import * as ways from "./waystostopclimatechange";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import TargetPage from "./TargetPage";
 import "./App.css";
 
-function App() {
+function HomePage() {
     const graphRef = useRef(null);
 
     useEffect(() => {
@@ -34,16 +35,25 @@ function App() {
                 <br /> United States Of America: 4,682 tons emitted <br /> India: 2,955 <br /> Russia: 
                 2,070 tons <br /> Japan: 945 tons </p>
             </div>
-
-            <ways.AdvocateForClimateChange />
-            <ways.DoItYourself />
-
+            
             <p id="sources" style={{ textAlign: 'center' }}>
                 Sources <br />
                 <a href="https://en-roads.climateinteractive.org/scenario.html?v=25.5.0" color = "red"> En-ROADS </a> <br />
                 <a href="https://worldpopulationreview.com/country-rankings/co2-emissions-by-country" color = "red"> World Population Review </a>
             </p>
         </div>
+    );
+}
+
+
+function App() {
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/target" element={<TargetPage />} />
+            </Routes>
+        </Router>
     );
 }
 
