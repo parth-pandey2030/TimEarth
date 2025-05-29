@@ -8,9 +8,10 @@ TimEarth is a web app that displays details of climate change and how to prevent
 Here is a simple 3-step set of instructions for how to use the app:
 
 1. Install Node.js (if you do not have it already):
-To make sure you have Node.js, enter the following command in the command line:
+To make sure you have Node.js, enter the following commands in the command line:
 ```
-node --version
+node -v
+npm -v
 ```
 If the command returns something (e.g., "v22.16.0") then you have Node.js. Else, please download it from [here](https://nodejs.org/en/download) or go to a [Github Repo](https://bug-free-eureka-wr7w757p5w4wcvj7.github.dev/) (allows for ues of Node.js and NPM without having to download anything).
 
