@@ -12,10 +12,10 @@ To make sure you have Node.js, enter the following command in the command line:
 ```
 node --version
 ```
-If the command returns something (e.g., "v22.16.0") then you have Node.js. Else, please download it from (https://nodejs.org/en/download)[here] or go to a (https://bug-free-eureka-wr7w757p5w4wcvj7.github.dev/) Github Repo (allows for ues of Node.js and NPM without having to download anything).
+If the command returns something (e.g., "v22.16.0") then you have Node.js. Else, please download it from [here](https://nodejs.org/en/download) or go to a [Github Repo](https://bug-free-eureka-wr7w757p5w4wcvj7.github.dev/) (allows for ues of Node.js and NPM without having to download anything).
 
 2. Download this repo:
-Go to the (https://github.com/parth-pandey2030/TimEarth)[home page for this repository]. Then click "Code" and then "Download ZIP". Finally, extract the ZIP file you have just downloaded. You should now have a folder named "TimEarth-main".
+Go to the [home page for this repository](https://github.com/parth-pandey2030/TimEarth). Then click "Code" and then "Download ZIP". Finally, extract the ZIP file you have just downloaded. You should now have a folder named "TimEarth-main".
 
 3. Run the app:
 In the command line, please navigate to the "TimEarth-main" folder and run the following set of commands (you can simply copy & paste):
